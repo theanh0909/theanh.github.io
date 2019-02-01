@@ -26,4 +26,36 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 
 @media (max-width:576px){
     *{}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 10;
+}
+
+li.nav-item {
+    float: none!important;
+    display: inline;
+}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align: center;
+}
+
+li.nav-item {
+    display: inline!important;
+    margin: 0 0;
+}
+
+a.nav-link {
+    line-height: 27px;
+    display: inline!important;
+}
 }
