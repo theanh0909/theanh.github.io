@@ -1,5 +1,34 @@
 *{margin: 0; padding: 0;}
 
+a.nuthire.btn.btn-primary {width: 180px;background: black;border: none;border-radius: 0px;}
+
+.tt p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 20px;
+    width: 46%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 24%;
+}
+
 a.navbar-brand {
     padding: 0;
     margin: 0;
@@ -20,6 +49,7 @@ a.navbar-brand {
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
 }
 
 body, html {
