@@ -1,5 +1,34 @@
 *{margin: 0;padding: 0;padding-top: 0%;}
 
+.xuong {
+    width: 30px;
+    height: 62px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 67%;
+    margin-left: -2px;
+}
+
 a.nuthire.btn.btn-primary {width: 180px;background: black;border: none;border-radius: 0px;}
 
 .tt p {

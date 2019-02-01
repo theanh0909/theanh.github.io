@@ -12,7 +12,7 @@
 </head>
 
 <body >
-		<div id="fb-root"></div>
+<div id="fb-root">
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
@@ -20,7 +20,7 @@
 		  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=1264902893672457&autoLogAppEvents=1';
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-
+</div>
 <div class="menutop">
 	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 		<div class="container">
@@ -30,16 +30,16 @@
 					<a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Kinh nghiệm</a>
+					<a class="nav-link kn" href="#">Kinh nghiệm</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Sản phẩm</a>
+					<a class="nav-link sp" href="#">Sản phẩm</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Liên hệ</a>
+					<a class="nav-link lh" href="#">Liên hệ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Comment</a>
+					<a class="nav-link cm" href="#">Comment</a>
 				</li>
 			</ul>
 		</div>
@@ -53,11 +53,12 @@
 			<h2>Nguyễn Thế Anh</h2>
 			<p>Chuyên gia hàng đầu về Kinh tế và Quản lý xây dựng, giảng viên tại Công ty CP Giá Xây Dựng, admin diễn đàn Giaxaydung.vn.<p>
 			<a href="" class="nuthire btn btn-primary">Hợp tác với tôi</a>
-
 		</div>			
+	<div class="xuong"></div>
+
 	</div>
 </div> <!-- het phan khoitt -->
-<div class="edu">
+<div class="edu" id="khoiedu">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 tieudeto text-xs-center"  text-xs-center>
@@ -104,19 +105,137 @@
 				<div class="khoittnho text-sm-left text-xs-center">
 					<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
 					<span class="motaqt">Từ năm 2014 tiếp tục theo học chương trình Nghiên cứu sinh làm luận án Tiến sĩ</span>
-					<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					<p>Cho đến nay vẫn đang thực hiện các nghiên cứu của Luận án này...</p>
 				</div>
 					<div class="khoittnho text-sm-left text-xs-center">
 						<h3 class="tieudecap3">Học tại GXD JSC</h3>
-						<span class="motaqt">Cũng năm 2018 thì tự cho phép mình nghỉ hưu sớm</span>
+						<span class="motaqt">Năm 2018 tự cho phép mình nghỉ hưu sớm</span>
 						<p>Tự học lập trình Full Stack qua tài liệu, sách vở, video trên mạng và các dự án thực tế</p>
 					</div>
 				</div><!--het cot 4/1-->
 		</div>
 	</div>
-</div>
+</div> <!-- end edu -->
 
-<div class="khoicomment">
+<div class="edu sp" id="sanpham">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-xs-center"  text-xs-center>
+					<h1>Sản phẩm</h1>
+				</div>
+				<div class="col-sm-4 cot1_3">
+					<h2 class="tieudecap2 text-sm-right text-xs-center">Quá trình <span class="dam">học</span></h2>
+				<div class="khoittnho text-sm-right text-xs-center">
+					<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+					<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+					<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+				</div>
+				<div class="khoittnho text-sm-right text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+				<div class="khoittnho text-sm-right text-xs-center">
+					<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+					<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+					<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+				</div>
+					<div class="khoittnho text-sm-right text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+				</div><!--het cot 4/1-->
+				<div class="col-sm-4 cot2_3">
+					<img src="images/chandung.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-sm-4 cot1_3">
+						<h2 class="tieudecap2 text-sm-left text-xs-center">Quá trình <span class="dam">học</span></h2>
+					<div class="khoittnho text-sm-left text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Đỗ ĐHXD năm 1998, tốt nghiệp năm 2003</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+					<div class="khoittnho text-sm-left text-xs-center">
+							<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+							<span class="motaqt">Học cao học từ năm 2009 tốt nghiệp năm 2011.</span>
+							<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+						</div>
+					<div class="khoittnho text-sm-left text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Từ năm 2014 tiếp tục theo học chương trình Nghiên cứu sinh làm luận án Tiến sĩ</span>
+						<p>Cho đến nay vẫn đang thực hiện các nghiên cứu của Luận án này...</p>
+					</div>
+						<div class="khoittnho text-sm-left text-xs-center">
+							<h3 class="tieudecap3">Học tại GXD JSC</h3>
+							<span class="motaqt">Năm 2018 tự cho phép mình nghỉ hưu sớm</span>
+							<p>Tự học lập trình Full Stack qua tài liệu, sách vở, video trên mạng và các dự án thực tế</p>
+						</div>
+					</div><!--het cot 4/1-->
+			</div>
+		</div>
+	</div> <!-- end sanpham -->
+
+<div class="lienhe lh" id="lienhe">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-xs-center"  text-xs-center>
+					<h1>Liên hệ</h1>
+				</div>
+				<div class="col-sm-4 cot1_3">
+					<h2 class="tieudecap2 text-sm-right text-xs-center">Quá trình <span class="dam">học</span></h2>
+				<div class="khoittnho text-sm-right text-xs-center">
+					<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+					<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+					<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+				</div>
+				<div class="khoittnho text-sm-right text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+				<div class="khoittnho text-sm-right text-xs-center">
+					<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+					<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+					<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+				</div>
+					<div class="khoittnho text-sm-right text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Học từ năm 1998 đến năm 2013 thì tốt nghiệp</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+				</div><!--het cot 4/1-->
+				<div class="col-sm-4 cot2_3">
+					<img src="images/chandung.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-sm-4 cot1_3">
+						<h2 class="tieudecap2 text-sm-left text-xs-center">Quá trình <span class="dam">học</span></h2>
+					<div class="khoittnho text-sm-left text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Đỗ ĐHXD năm 1998, tốt nghiệp năm 2003</span>
+						<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+					</div>
+					<div class="khoittnho text-sm-left text-xs-center">
+							<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+							<span class="motaqt">Học cao học từ năm 2009 tốt nghiệp năm 2011.</span>
+							<p>Quá trình học rất giỏi, luôn đạt được học bổng, khi tốt nghiệp thì đạt được giải thưởng Loa Thành</p>
+						</div>
+					<div class="khoittnho text-sm-left text-xs-center">
+						<h3 class="tieudecap3">Học Đại học Xây dựng</h3>
+						<span class="motaqt">Từ năm 2014 tiếp tục theo học chương trình Nghiên cứu sinh làm luận án Tiến sĩ</span>
+						<p>Cho đến nay vẫn đang thực hiện các nghiên cứu của Luận án này...</p>
+					</div>
+						<div class="khoittnho text-sm-left text-xs-center">
+							<h3 class="tieudecap3">Học tại GXD JSC</h3>
+							<span class="motaqt">Năm 2018 tự cho phép mình nghỉ hưu sớm</span>
+							<p>Tự học lập trình Full Stack qua tài liệu, sách vở, video trên mạng và các dự án thực tế</p>
+						</div>
+					</div><!--het cot 4/1-->
+			</div>
+		</div>
+	</div> <!-- end sanpham -->
+
+<div class="khoicomment cm" id="khoicomment">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
