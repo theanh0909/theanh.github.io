@@ -13,7 +13,7 @@ a.navbar-brand {
 }
 
 .khoitt1:before {
-    content: "";
+    content: "hello;
     position: absolute;
     left: 0;
     top: 0;
