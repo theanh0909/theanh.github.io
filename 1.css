@@ -42,7 +42,7 @@ h2.tieudecap2 {
     font-size: 30px;
 }
 
-.xuong {
+.scrolldown {
     width: 30px;
     height: 62px;
     border: white solid 1px;
@@ -56,11 +56,11 @@ h2.tieudecap2 {
     transition: 0.4s;
 }
 
-.xuong:hover {
+.scrolldown:hover {
     bottom: 4%;
 }
 
-.xuong:after {
+.scrolldown:after {
     content: "";
     position: absolute;
     width: 3px;
@@ -105,14 +105,14 @@ a.navbar-brand {
     margin: 0;
 }
 
-.khoitt1 {
+.khoithongtin {
     height: 100%;
     width: 100%;
     background: #e9585f;
     position: relative;
 }
 
-.khoitt1:before {
+.khoithongtin:before {
     content: "";
     position: absolute;
     left: 0;

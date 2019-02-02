@@ -1,5 +1,5 @@
 ﻿ $(function(){
-    $(".xuong, .kn").click(function(){
+    $(".scrolldown, .kn").click(function(){
         $('body,html').animate({scrollTop:$('#khoiedu').offset().top},600)
     })
 
