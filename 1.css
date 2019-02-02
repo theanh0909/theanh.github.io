@@ -1,5 +1,47 @@
 *{margin: 0;padding: 0;padding-top: 0%;}
 
+.khoittnho {
+    margin-bottom: 50px;
+}
+
+span.motaqt {
+    font-size: 14px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+.khoittnho h3.tieudecap3 {
+    font-size: 16px;
+    color: #e35855;
+    margin-bottom: 20px;
+}
+
+span.dam {
+    font-weight: bold;
+    font-family: segoe ui;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 29px;
+}
+
+.tieudeto {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    background: url(images/ke.jpg) no-repeat left bottom;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 .xuong {
     width: 30px;
     height: 62px;
@@ -49,7 +91,7 @@ a.nuthire.btn.btn-primary {width: 180px;background: black;border: none;border-ra
 
 .tt img {
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .tt {
