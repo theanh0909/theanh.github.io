@@ -6,6 +6,9 @@
     $(".sp").click(function(){
         $('body,html').animate({scrollTop:$('#sanpham').offset().top},600)
     })
+    $(".kh").click(function(){
+        $('body,html').animate({scrollTop:$('#khoahoc').offset().top},600)
+    })
     $(".lh").click(function(){
         $('body,html').animate({scrollTop:$('#lienhe').offset().top},600)
     })
