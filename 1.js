@@ -12,4 +12,7 @@
     $(".cm").click(function(){
         $('body,html').animate({scrollTop:$('#khoicomment').offset().top},600)
     })
+    $(".anh").click(function(){
+        $('body,html').animate({scrollTop:$('#thuvienanh').offset().top},600)
+    })
 })
