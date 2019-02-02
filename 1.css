@@ -130,6 +130,7 @@ body, html {
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background: white;
+    width: 100%;
 }
 
 li.nav-item {
@@ -153,8 +154,16 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     height: 100px;
 } 
 
-@media (max-width:576px){
+@media (max-width: 576px){
 *{}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 20px;
+}
 
 img {
     z-index: 3;
@@ -186,7 +195,7 @@ ul.nav.navbar-nav.float-xs-right {
     width: 110%;
     position: relative;
     left: -16px;
-    padding: 10px 19px;
+    padding: 10px 20px;
     border-top: 1px solid #d8d8d8;
 }
 
